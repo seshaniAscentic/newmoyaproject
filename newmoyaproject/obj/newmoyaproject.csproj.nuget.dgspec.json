@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[77.0.3865.4000, )"
             },
+            "Test_Adoptor": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "nunit": {
               "target": "Package",
               "version": "[3.11.0, )"

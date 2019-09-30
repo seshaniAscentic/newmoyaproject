@@ -1640,6 +1640,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Test_Adoptor/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AdopterSample.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AdopterSample.dll": {}
+        }
       }
     }
   },
@@ -5721,6 +5730,22 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Test_Adoptor/1.0.0": {
+      "sha512": "auBe+66qI9MnN8bTcwheAnNBBXh9lkJeej3oMzzL1FCyqQGC5trPQ5dJ8wxm1CNBc0k69bsvT1DTuuT6rF+1EQ==",
+      "type": "package",
+      "path": "test_adoptor/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Anon.aspx",
+        "content/Auth.aspx",
+        "content/Web.config",
+        "content/Wizard.css",
+        "lib/net40/AdopterSample.dll",
+        "test_adoptor.1.0.0.nupkg.sha512",
+        "test_adoptor.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -5731,6 +5756,7 @@
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
       "Selenium.WebDriver.ChromeDriver >= 77.0.3865.4000",
+      "Test_Adoptor >= 1.0.0",
       "nunit >= 3.11.0"
     ]
   },
@@ -5801,6 +5827,10 @@
             "target": "Package",
             "version": "[77.0.3865.4000, )"
           },
+          "Test_Adoptor": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "nunit": {
             "target": "Package",
             "version": "[3.11.0, )"
@@ -5813,5 +5843,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Test_Adoptor 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "Test_Adoptor",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

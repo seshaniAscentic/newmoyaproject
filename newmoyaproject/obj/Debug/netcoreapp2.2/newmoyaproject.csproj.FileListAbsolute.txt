@@ -20,3 +20,6 @@ D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2
 D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2.2\newmoyaproject.csproj.CoreCompileInputs.cache
 D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2.2\newmoyaproject.AssemblyInfoInputs.cache
 D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2.2\newmoyaproject.AssemblyInfo.cs
+D:\Automation\newproject.git\newmoyaproject\newmoyaproject\bin\Debug\netcoreapp2.2\newmoyaproject.pdb
+D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2.2\newmoyaproject.dll
+D:\Automation\newproject.git\newmoyaproject\newmoyaproject\obj\Debug\netcoreapp2.2\newmoyaproject.pdb
